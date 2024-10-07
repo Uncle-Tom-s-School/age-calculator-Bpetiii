@@ -11,6 +11,10 @@ function calculateAge() {
         // document.getElementById("result").innerText = "Please enter a valid date.";
         return;
     }
+    if(day > 31 || month > 12 || year > new Date().getFullYear()){
+        // document.getElementById("result").innerText = "Please enter a valid date.";
+        return;
+    }
 
     const birthDate = new Date(year, month - 1, day);
     const today = new Date();

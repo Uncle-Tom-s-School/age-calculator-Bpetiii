@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+body{
+    background-color: hsl(0, 0%, 94%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    font-family: Poppins, sans-serif;
+}
+
+#date{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}   
+
+
+#button_holder{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: row;
+   hr{
+     width: 100%;
+   }
+   padding: 0px 20px;
+}
+
+button{
+    width: 80px;
+    aspect-ratio: 1;
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(259, 100%, 65%);
+    position: relative;
+}
+
+button:hover{
+    background-color: black;
+}
+
+hr{
+    color: hsl(0, 0%, 86%);
+}
+
+input[type = "number"]{
+    border: 2px solid hsl(0, 0%, 86%);
+    background-color: white;
+    border-radius: 10px;
+    width: 75%;
+    height: 30px;
+    font-size: x-large;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.dateinput{
+    font-weight: bolder;
+    color: hsl(0, 1%, 44%);
+    display: flex;
+    flex-flow: column;
+    margin: 15px;
+}
+
+#main{
+    background-color: hsl(0, 0%, 100%);
+    min-width: 400px;
+    min-height: 65vh;
+    max-width: 45vw;
+    border-radius: 25px;
+    border-bottom-right-radius: 150px;
+}
+
+#answ{
+    margin: 0;
+    margin-right: 5%;
+    margin-left: 5%;
+    h1 {
+        span{
+            color: hsl(259, 100%, 65%);
+        }
+        font-style: italic;
+        margin: 0;
+        font-size: xxx-large;
+    }
+}
